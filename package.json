@@ -1,0 +1,17 @@
+{
+  "name": "bar-chart",
+  "version": "1.0.0",
+  "description": "Mackenzie's bar chart project for freeCodeCamp's Data Visualization project.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "data",
+    "visualization",
+    "bar",
+    "chart"
+  ],
+  "author": "Mackenzie Miller",
+  "license": "ISC"
+}
