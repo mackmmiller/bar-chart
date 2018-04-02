@@ -1,52 +1,53 @@
-$darkblue:#2e3c45;
-$lightblue:#599c99;
+// $darkblue: #2e3c45;
+// $lightblue: #599c99;
 
-html,body {
-	height: 100%;
-	margin: 0;
+html,
+body {
+  height: 100%;
+  margin: 0;
 }
 
-header{
-	position: absolute;
-	top: 0;
-	background: #005900;
-	padding: 1em;
-	width: 100%;
+header {
+  position: absolute;
+  top: 0;
+  background: #005900;
+  padding: 1em;
+  width: 100%;
 }
 
 svg {
-	position: absolute;
-	top: 15%;
-	margin: auto;
+  position: absolute;
+  top: 15%;
+  margin: auto;
 }
 
 .bar {
-	fill: $darkblue;
-	&:hover {
-		fill: $lightblue;
-	}
+  fill: $darkblue;
+  &:hover {
+    fill: $lightblue;
+  }
 }
 
 div.tooltip {
-	position: absolute;
-	color: $darkblue;
-	background: $lightblue;
-	text-align: center;
-	padding: 0.5em;
-	border: 3px solid $darkblue;
-	border-radius: 5px;
-	pointer-events: none;
+  position: absolute;
+  color: $darkblue;
+  background: $lightblue;
+  text-align: center;
+  padding: 0.5em;
+  border: 3px solid $darkblue;
+  border-radius: 5px;
+  pointer-events: none;
 }
 
-footer{
-	position: absolute;
-	bottom: 0;
-	background: #005900;
-	padding: 1em;
-	width: 100%;
-	text-align: center;
-	color: white;
-	a {
-		text-decoration: none;
-	}
+footer {
+  position: absolute;
+  bottom: 0;
+  background: #005900;
+  padding: 1em;
+  width: 100%;
+  text-align: center;
+  color: white;
+  a {
+    text-decoration: none;
+  }
 }
